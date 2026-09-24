@@ -1,0 +1,10 @@
+nohup: ignoring input
+[2026-09-20 14:15:59] START dnabert2_splitB_seed1 (seed=1 warmup_ratio=0.1) log=logs/seeds/dnabert2_splitB_seed1.log
+[2026-09-20 20:00:46] END   dnabert2_splitB_seed1 OK
+[2026-09-20 20:00:46] START dnabert2_splitB_seed2 (seed=2 warmup_ratio=0.1) log=logs/seeds/dnabert2_splitB_seed2.log
+[2026-09-21 01:44:28] END   dnabert2_splitB_seed2 OK
+[2026-09-21 01:44:28] START dnabert2_splitB_seed3 (seed=3 warmup_ratio=0.1) log=logs/seeds/dnabert2_splitB_seed3.log
+[2026-09-21 07:27:49] END   dnabert2_splitB_seed3 OK
+[2026-09-21 07:27:49] START dnabert2_splitB_seed1_warmup0 (seed=1 warmup_ratio=0) log=logs/seeds/dnabert2_splitB_seed1_warmup0.log
+[2026-09-21 13:10:57] END   dnabert2_splitB_seed1_warmup0 OK
+[2026-09-21 13:10:57] QUEUE COMPLETE (seeds 4-5 are NOT auto-launched; apply docs/seed_stopping_rule.md first)
