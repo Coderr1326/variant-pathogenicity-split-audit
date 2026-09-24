@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Data — raw and derived data are rebuildable via src.data.build_dataset
+# (split manifests ARE tracked: they freeze the exact train/test membership)
+data/raw/*
+data/interim/*
+data/processed/*
+!data/splits/
+data/splits/*
+!data/splits/*.json
+!data/splits/README.md
+
+# Model weights — 151 GB, never goes to git
+results/checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Runtime junk
+nohup.out
+*.log.tmp
+.claude/
+.ipynb_checkpoints/
+
+# Copyrighted paper — kept locally, not redistributed
+paper.pdf
+
+# OS
+.DS_Store

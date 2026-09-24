@@ -1,0 +1,69 @@
+paper:
+  title: "Enhancing Genetic Variant Pathogenicity Classification using Mutation-Aware Transformer Architectures"
+  authors: ["Anjana M. P.", "Arun K. S."]
+  venue: "AICAPS 2026"
+  doi: "10.1109/AICAPS68631.2026.11452691"
+  task_formulation: "sequence-level binary classification"
+  comparison_target: "body text and confusion-matrix-consistent values"
+reference:
+  build: GRCh38
+  build_status: "Implementation assumption (paper underspecified)"
+  strand_annotation: "GENCODE v46 human GRCh38 annotation"
+  strand_annotation_release_date: "2024-05-13"
+  strand_annotation_url: "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_46/gencode.v46.annotation.gtf.gz"
+gene_list:
+  cancer_source: "Static canonical cancer-gene substitute"
+  non_cancer_source: "Static Mendelian-disease-gene substitute"
+  total_symbols: 100
+  cap_per_gene: 5804
+  cap_rule: "3% of the uncapped 193,453-row dataset, rounded up; within-gene label proportions preserved with seed 42"
+  cosmic_attempt: "COSMIC Census page accessible, but no directly usable public gene-list download exposed; static substitute retained"
+  uncapped_rows: 193453
+  capped_rows: 168927
+  capped_benign: 90786
+  capped_pathogenic: 78141
+  capped_strand_plus: 94426
+  capped_strand_minus: 74501
+split:
+  train_fraction: 0.8
+  validation_fraction: 0.2
+  seed: 42
+  stratified: true
+clinvar:
+  exact_author_release: UNKNOWN
+  reproduction_release: "2025-06-30"
+  reproduction_filename: "clinvar_20250630.vcf.gz"
+  release_selection_reason: "Closest archived monthly release to estimated paper submission window (mid-2025), per AICAPS 2026 publication timing."
+  confidence: LOW
+checkpoints:
+  dnabert2:
+    exact_paper_checkpoint: UNKNOWN
+    selected: "zhihan1996/DNABERT-2-117M"
+    reason: "Only public DNABERT-2 release specified by reproduction brief"
+    parameter_count: "117M"
+    pooling_architecture: "mean pooling over the attention-masked hidden states, via a standalone encoder+classifier head (not src/training/transformer_utils.py's SequenceWrapper)"
+    pooling_provenance: >
+      Epochs 1-9 ran on Colab; epoch 10 was finished locally via
+      scripts/finish_dnabert2_locally.py on 2026-08-16, which resumed from the
+      downloaded epoch_09.pt checkpoint. That checkpoint's state_dict keys
+      (encoder.*/classifier.*) confirm the original Colab run already used this
+      mean-pooling head, not CLS-token pooling. src/training/transformer_utils.py's
+      SequenceWrapper (CLS-token pooling, z[:,0]) was introduced afterward
+      (2026-09-06) for the Nucleotide Transformer run and was never used for
+      DNABERT-2 — the two models do not share a pooling architecture. Re-running
+      DNABERT-2 through the current notebook/load_transformer() would silently
+      switch it to CLS pooling and would not reproduce this checkpoint lineage.
+  nucleotide_transformer:
+    exact_paper_checkpoint: UNKNOWN
+    selection_order:
+      - "InstaDeepAI/nucleotide-transformer-v2-500m-multi-species"
+      - "InstaDeepAI/nucleotide-transformer-v2-100m-multi-species"
+    selected: "InstaDeepAI/nucleotide-transformer-v2-100m-multi-species"
+    reason: "Compute-feasibility fallback; paper does not specify checkpoint"
+    parameter_count: "100M"
+compute:
+  gpu: "NVIDIA GeForce RTX 3050 Laptop GPU, 6144 MiB"
+  mixed_precision: true
+  status: "100 bp compute gate complete; full training deferred"
+  gate_cost_table: "results/compute_gate/cost_table.csv"
+  estimated_total_all_six_10_epoch_hours: 18.0
