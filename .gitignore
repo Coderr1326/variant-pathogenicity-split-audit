@@ -32,3 +32,4 @@ paper.pdf
 
 # OS
 .DS_Store
+*.log
