@@ -1,0 +1,10 @@
+{"epoch": 2, "weighted_f1": 0.6261617930346774, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/dnabert2_splitc/epoch_02.pt"}
+{"epoch": 3, "weighted_f1": 0.6484860042049577, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/dnabert2_splitc/epoch_03.pt"}
+{"epoch": 4, "weighted_f1": 0.6588881614761727, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/dnabert2_splitc/epoch_04.pt"}
+{"epoch": 5, "weighted_f1": 0.6700149494463574, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/dnabert2_splitc/epoch_05.pt"}
+{"epoch": 6, "weighted_f1": 0.6768506798380302, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/dnabert2_splitc/epoch_06.pt"}
+{"epoch": 7, "weighted_f1": 0.6960952109592798, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/dnabert2_splitc/epoch_07.pt"}
+{"epoch": 8, "weighted_f1": 0.7024342913067019, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/dnabert2_splitc/epoch_08.pt"}
+{"epoch": 9, "weighted_f1": 0.7054285041905145, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/dnabert2_splitc/epoch_09.pt"}
+{"epoch": 10, "weighted_f1": 0.7116688898701532, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/dnabert2_splitc/epoch_10.pt"}
+{"final_result": {"accuracy": 0.7156190362595419, "roc_auc": 0.7772395472206672, "weighted_precision": 0.7178508225403218, "weighted_recall": 0.7156190362595419, "weighted_f1": 0.7116688898701532, "benign_precision": 0.7054460183767228, "benign_recall": 0.8133863046956905, "benign_f1": 0.7555806145723878, "pathogenic_precision": 0.7324367088607595, "pathogenic_recall": 0.6006617790177123, "pathogenic_f1": 0.6600363597476205, "tn": 14741, "fp": 3382, "fn": 6155, "tp": 9258}}

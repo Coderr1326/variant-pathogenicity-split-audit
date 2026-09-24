@@ -1,0 +1,12 @@
+{"epoch": 1, "weighted_f1": 0.37606069732882624, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/dnabert2_splitb/epoch_01.pt"}
+{"epoch": 2, "weighted_f1": 0.37606069732882624, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/dnabert2_splitb/epoch_02.pt"}
+{"epoch": 3, "weighted_f1": 0.2922928346839532, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/dnabert2_splitb/epoch_03.pt"}
+{"epoch": 4, "weighted_f1": 0.37606069732882624, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/dnabert2_splitb/epoch_04.pt"}
+{"epoch": 5, "weighted_f1": 0.2922928346839532, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/dnabert2_splitb/epoch_05.pt"}
+{"epoch": 6, "weighted_f1": 0.37606069732882624, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/dnabert2_splitb/epoch_06.pt"}
+{"epoch": 7, "weighted_f1": 0.37606069732882624, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/dnabert2_splitb/epoch_07.pt"}
+{"epoch": 8, "weighted_f1": 0.37606069732882624, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/dnabert2_splitb/epoch_08.pt"}
+{"epoch": 9, "weighted_f1": 0.37606069732882624, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/dnabert2_splitb/epoch_09.pt"}
+{"epoch": 10, "weighted_f1": 0.37606069732882624, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/dnabert2_splitb/epoch_10.pt"}
+{"final_result": {"accuracy": 0.5377146240378923, "roc_auc": 0.49989301919826096, "weighted_precision": 0.28913701690421184, "weighted_recall": 0.5377146240378923, "weighted_f1": 0.37606069732882624, "benign_precision": 0.5377146240378923, "benign_recall": 1.0, "benign_f1": 0.6993685507469583, "pathogenic_precision": 0.0, "pathogenic_recall": 0.0, "pathogenic_f1": 0.0, "tn": 18164, "fp": 0, "fn": 15616, "tp": 0}}
+{"epoch": 1, "weighted_f1": 0.6056983087097663, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/dnabert2_splitc/epoch_01.pt"}

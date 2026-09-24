@@ -1,0 +1,3 @@
+nohup: ignoring input
+max_length used: 56
+device: cuda train: 135141 val: 33786 batch_size: 16

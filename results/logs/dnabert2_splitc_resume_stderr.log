@@ -1,0 +1,6 @@
+nohup: ignoring input
+Some weights of BertModel were not initialized from the model checkpoint at zhihan1996/DNABERT-2-117M and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+max_length used: 200
+device: cuda train: 135391 val: 33536 batch_size: 16
+Resumed from /home/rishank/Projects/major project/Test/results/checkpoints/dnabert2_splitc/epoch_01.pt after epoch 1, best_score so far 0.6057

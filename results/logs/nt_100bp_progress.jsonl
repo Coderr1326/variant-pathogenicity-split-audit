@@ -1,0 +1,11 @@
+{"epoch": 1, "weighted_f1": 0.8698686116436306, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/nt/epoch_01.pt"}
+{"epoch": 2, "weighted_f1": 0.8742082806197019, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/nt/epoch_02.pt"}
+{"epoch": 3, "weighted_f1": 0.87043234711791, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/nt/epoch_03.pt"}
+{"epoch": 4, "weighted_f1": 0.8712896654591721, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/nt/epoch_04.pt"}
+{"epoch": 5, "weighted_f1": 0.8680489030596967, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/nt/epoch_05.pt"}
+{"epoch": 6, "weighted_f1": 0.8655534142733471, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/nt/epoch_06.pt"}
+{"epoch": 7, "weighted_f1": 0.861852534144117, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/nt/epoch_07.pt"}
+{"epoch": 8, "weighted_f1": 0.8678302543770546, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/nt/epoch_08.pt"}
+{"epoch": 9, "weighted_f1": 0.8686017437278528, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/nt/epoch_09.pt"}
+{"epoch": 10, "weighted_f1": 0.8675397397409422, "checkpoint": "/home/rishank/Projects/major project/Test/results/checkpoints/nt/epoch_10.pt"}
+{"final_result": {"accuracy": 0.8744154383472444, "roc_auc": 0.9343105042214976, "weighted_precision": 0.8745523736647762, "weighted_recall": 0.8744154383472444, "weighted_f1": 0.8742082806197019, "benign_precision": 0.8709677419354839, "benign_recall": 0.899603480559533, "benign_f1": 0.8850540460000542, "pathogenic_precision": 0.8787173175437429, "pathogenic_recall": 0.8451497312515996, "pathogenic_f1": 0.8616067060243322, "tn": 16335, "fp": 1823, "fn": 2420, "tp": 13208}}

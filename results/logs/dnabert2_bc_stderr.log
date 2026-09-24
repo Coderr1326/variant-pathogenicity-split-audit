@@ -1,0 +1,23 @@
+nohup: ignoring input
+A new version of the following files was downloaded from https://huggingface.co/zhihan1996/DNABERT-2-117M:
+- configuration_bert.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+A new version of the following files was downloaded from https://huggingface.co/zhihan1996/DNABERT-2-117M:
+- bert_padding.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+A new version of the following files was downloaded from https://huggingface.co/zhihan1996/DNABERT-2-117M:
+- flash_attn_triton.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+A new version of the following files was downloaded from https://huggingface.co/zhihan1996/DNABERT-2-117M:
+- bert_layers.py
+- bert_padding.py
+- flash_attn_triton.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+Some weights of BertModel were not initialized from the model checkpoint at zhihan1996/DNABERT-2-117M and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+max_length used: 200
+device: cuda train: 135147 val: 33780 batch_size: 16
+Some weights of BertModel were not initialized from the model checkpoint at zhihan1996/DNABERT-2-117M and are newly initialized: ['pooler.dense.bias', 'pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+max_length used: 200
+device: cuda train: 135391 val: 33536 batch_size: 16

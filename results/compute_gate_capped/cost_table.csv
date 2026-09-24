@@ -1,0 +1,5 @@
+model,window,time_per_5pct_epoch_s,estimated_full_epoch_s,estimated_10_epoch_s
+bilstm,100,8.46,169.20000000000002,1692.0000000000002
+cnn_bilstm,100,8.75,175.0,1750.0
+ensemble,100,9.66,193.2,1932.0
+cnn,100,10.02,200.39999999999998,2003.9999999999998
