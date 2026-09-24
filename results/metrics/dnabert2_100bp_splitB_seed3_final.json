@@ -1,0 +1,23 @@
+{
+  "model": "dnabert2",
+  "window": 100,
+  "metrics": {
+    "accuracy": 0.6176731793960923,
+    "roc_auc": 0.6640002946035167,
+    "weighted_precision": 0.6164974162950748,
+    "weighted_recall": 0.6176731793960923,
+    "weighted_f1": 0.6108351000916747,
+    "benign_precision": 0.6219733234186922,
+    "benign_recall": 0.7367870513102841,
+    "benign_f1": 0.6745293717396235,
+    "pathogenic_precision": 0.6101280273994945,
+    "pathogenic_recall": 0.4791239754098361,
+    "pathogenic_f1": 0.5367480899601851,
+    "tn": 13383,
+    "fp": 4781,
+    "fn": 8134,
+    "tp": 7482
+  },
+  "seed": 3,
+  "warmup_ratio": 0.1
+}
