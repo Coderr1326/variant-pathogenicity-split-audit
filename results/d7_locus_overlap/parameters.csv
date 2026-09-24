@@ -1,0 +1,10 @@
+key,value
+min_class_count,30
+n_bootstrap,1000
+bootstrap_seed,0
+ci,"95% percentile (2.5, 97.5)"
+top_genes_listed,5
+locus_definition,locus = chrom + '_' + pos; shared = locus occurs among the split's training variants (any alt allele); novel = otherwise
+models,"M3; NT; DNABERT-2 seeds 42/1/2/3 (SPLIT-B warmup 0.1); DNABERT-2 SPLIT-A/C single run seed 42, fixed LR"
+python,3.14.7
+generated,2026-09-21 21:15:07 +0530

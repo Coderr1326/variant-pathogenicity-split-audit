@@ -1,0 +1,22 @@
+split,bucket,n_pathogenic,n_benign,eligible,reason_if_skipped
+A,missing,13495,13129,True,
+A,0,14,16,False,smaller class has 14 (< 50)
+A,"(0,1e-4)",1386,2209,True,
+A,"[1e-4,1e-3)",636,1034,True,
+A,"[1e-3,1e-2)",89,815,True,
+A,"[1e-2,5e-2)",6,389,False,smaller class has 6 (< 50)
+A,>=5e-2,2,566,False,smaller class has 2 (< 50)
+B,missing,13746,13295,True,
+B,0,12,21,False,smaller class has 12 (< 50)
+B,"(0,1e-4)",1288,2174,True,
+B,"[1e-4,1e-3)",519,1004,True,
+B,"[1e-3,1e-2)",49,843,False,smaller class has 49 (< 50)
+B,"[1e-2,5e-2)",1,330,False,smaller class has 1 (< 50)
+B,>=5e-2,1,497,False,smaller class has 1 (< 50)
+C,missing,9126,10241,True,
+C,0,44,30,False,smaller class has 30 (< 50)
+C,"(0,1e-4)",3712,3487,True,
+C,"[1e-4,1e-3)",2130,2309,True,
+C,"[1e-3,1e-2)",377,1264,True,
+C,"[1e-2,5e-2)",20,372,False,smaller class has 20 (< 50)
+C,>=5e-2,4,420,False,smaller class has 4 (< 50)

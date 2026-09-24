@@ -1,0 +1,118 @@
+{
+  "model": "m3_gene_only",
+  "alpha": 1.0,
+  "seed": 42,
+  "splits": {
+    "A": {
+      "metrics": {
+        "accuracy": 0.6417155034629728,
+        "roc_auc": 0.6903291675609253,
+        "weighted_precision": 0.640582684850737,
+        "weighted_recall": 0.6417155034629728,
+        "weighted_f1": 0.6405443418328677,
+        "benign_precision": 0.6576876986401292,
+        "benign_recall": 0.6951756801409847,
+        "benign_f1": 0.6759122915049128,
+        "pathogenic_precision": 0.6207085588981018,
+        "pathogenic_recall": 0.5796007166624009,
+        "pathogenic_f1": 0.5994507130803084,
+        "tn": 12623,
+        "fp": 5535,
+        "fn": 6570,
+        "tp": 9058
+      },
+      "diagnostics": {
+        "n_train_genes": 100,
+        "n_test_genes": 100,
+        "n_test_genes_seen_in_train": 100,
+        "frac_test_variants_gene_seen_in_train": 1.0,
+        "manifest_content_hash": "sha256:c8d6e8903bc8d9cb2709dfa75b50012dc7cfafeec1e70cadedd39a921a58abbe",
+        "n_train": 135141,
+        "n_test": 33786,
+        "global_train_rate": 0.46257612419620986,
+        "alpha": 1.0,
+        "chance_floor": false,
+        "lr_onehot_auroc": 0.6903509560859766,
+        "auroc_abs_diff_smoothed_vs_lr": 2.17885250513028e-05
+      },
+      "reference_auroc": {
+        "dnabert2": 0.9136645922590639,
+        "nt": 0.9343105042214976
+      }
+    },
+    "B": {
+      "metrics": {
+        "accuracy": 0.5377146240378923,
+        "roc_auc": 0.5,
+        "weighted_precision": 0.28913701690421184,
+        "weighted_recall": 0.5377146240378923,
+        "weighted_f1": 0.37606069732882624,
+        "benign_precision": 0.5377146240378923,
+        "benign_recall": 1.0,
+        "benign_f1": 0.6993685507469583,
+        "pathogenic_precision": 0.0,
+        "pathogenic_recall": 0.0,
+        "pathogenic_f1": 0.0,
+        "tn": 18164,
+        "fp": 0,
+        "fn": 15616,
+        "tp": 0
+      },
+      "diagnostics": {
+        "n_train_genes": 86,
+        "n_test_genes": 14,
+        "n_test_genes_seen_in_train": 0,
+        "frac_test_variants_gene_seen_in_train": 0.0,
+        "manifest_content_hash": "sha256:7490bb4a5b7732905f583fa432268ed334ccc96246de1cb2e50d22f0f9de5924",
+        "n_train": 135147,
+        "n_test": 33780,
+        "global_train_rate": 0.4626443798234515,
+        "alpha": 1.0,
+        "chance_floor": true,
+        "lr_onehot_auroc": 0.5,
+        "auroc_abs_diff_smoothed_vs_lr": 0.0
+      },
+      "reference_auroc": {
+        "dnabert2": 0.6739668968506658,
+        "nt": 0.9015744330571009
+      }
+    },
+    "C": {
+      "metrics": {
+        "accuracy": 0.5832836354961832,
+        "roc_auc": 0.6043667005968095,
+        "weighted_precision": 0.5796785221571563,
+        "weighted_recall": 0.5832836354961832,
+        "weighted_f1": 0.5767164759459898,
+        "benign_precision": 0.5981449933749763,
+        "benign_recall": 0.6974562710368041,
+        "benign_f1": 0.6439943956183926,
+        "pathogenic_precision": 0.5579651725249919,
+        "pathogenic_recall": 0.44903652760656587,
+        "pathogenic_f1": 0.49760937556170687,
+        "tn": 12640,
+        "fp": 5483,
+        "fn": 8492,
+        "tp": 6921
+      },
+      "diagnostics": {
+        "n_train_genes": 100,
+        "n_test_genes": 96,
+        "n_test_genes_seen_in_train": 96,
+        "frac_test_variants_gene_seen_in_train": 1.0,
+        "manifest_content_hash": "sha256:4e4d4d217b9fdae4c7459882dcbc41dc5bb0a62438c6ecac89474e72e3562434",
+        "n_train": 135391,
+        "n_test": 33536,
+        "global_train_rate": 0.4633099689048755,
+        "alpha": 1.0,
+        "chance_floor": false,
+        "lr_onehot_auroc": 0.6042899776690134,
+        "auroc_abs_diff_smoothed_vs_lr": 7.672292779614676e-05
+      },
+      "reference_auroc": {
+        "dnabert2": 0.7772395472206672,
+        "nt": 0.851860114287341
+      }
+    }
+  }
+}

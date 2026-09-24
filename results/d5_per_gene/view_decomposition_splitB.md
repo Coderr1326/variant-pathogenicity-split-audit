@@ -1,0 +1,15 @@
+# SPLIT-B: Pooled vs. Within-Gene vs. Between-Gene AUROC
+
+Run,Pooled,Within-gene (macro),Within-gene (n-wtd),Between-gene,Valid genes,Variants in valid genes
+M3,0.5000,0.5000,0.5000,0.5000,13,99.8%
+NT,0.9016,0.8640,0.8923,0.6915,13,99.8%
+DNABERT-2† seed 42,0.6740,0.6829,0.6904,0.5901,13,99.8%
+DNABERT-2† seed 1,0.6796,0.6638,0.6645,0.6678,13,99.8%
+DNABERT-2† seed 2,0.6785,0.6773,0.6895,0.6169,13,99.8%
+DNABERT-2† seed 3,0.6640,0.6703,0.6635,0.6239,13,99.8%
+DNABERT-2† mean,0.6740,0.6736,0.6770,0.6247,13,99.8%
+DNABERT-2† min,0.6640,0.6638,0.6635,0.5901,13,99.8%
+DNABERT-2† max,0.6796,0.6829,0.6904,0.6678,13,99.8%
+
+
+† DNABERT-2 SPLIT-B required an LR warmup fix after an initial run experienced representation collapse (see methodology); SPLIT-A and SPLIT-C used the original fixed-LR schedule. All columns except the last two are AUROC; mean/min/max are over the 4 seeds; macro = unweighted mean over valid genes, n-wtd = weighted by gene size. Between-gene: each variant's score replaced by its gene's mean score, AUROC over all variants. Within-gene metrics use genes with >= 30 variants in each class. Not shown: CNN, BiLSTM, CNN+BiLSTM, Ensemble (no saved probabilities).

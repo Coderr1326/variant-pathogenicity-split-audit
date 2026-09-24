@@ -1,0 +1,14 @@
+key,value
+af_source,"data/raw/clinvar_20250630.vcf.gz INFO fields AF_ESP, AF_EXAC, AF_TGP (the release that built the dataset; no download)"
+variant_key,"CHROM, POS, REF, ALT (dataset vid = chrom_pos_ref_alt); all 168,927 dataset variants found in the VCF"
+af_combination,"max over the non-missing of AF_ESP, AF_EXAC, AF_TGP; none present = missing bucket (not AF = 0)"
+bucket_cutoffs,"missing; ==0; (0,1e-4); [1e-4,1e-3); [1e-3,1e-2); [1e-2,5e-2); >=5e-2"
+min_per_class_bucket,50
+n_resamples,100
+resample_seeds,"0..99, default_rng(r) per resample"
+ci_percentiles,"2.5, 97.5 of the resample AUROCs"
+m4_alpha,1.0
+matching,"per bucket the majority class is downsampled to the minority count; union over eligible buckets; variants: all_eligible (incl. missing), af_known_only"
+models_scored,"M3; M4; NT; DNABERT-2 seeds 42/1/2/3 (SPLIT-B warmup 0.1; SPLIT-A/C single run seed 42, fixed LR)"
+python,3.14.7
+generated,2026-09-21 22:02:23 +0530

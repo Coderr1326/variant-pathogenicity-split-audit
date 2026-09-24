@@ -1,0 +1,3 @@
+window_column,n_test_windows,n_exact_in_train_forward,n_revcomp_in_train,n_either
+ref_sequence,33780,0,0,0
+mut_sequence,33780,0,0,0

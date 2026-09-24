@@ -1,0 +1,17 @@
+key,value
+k,25
+window_column,ref_sequence
+sequence_columns_found,ref_sequence;mut_sequence;genomic_ref_sequence;genomic_mut_sequence
+thresholds,0.5;0.8;0.95
+top_pairs_listed,15
+kmer_encoding,exact 2-bit-per-base integers (50 bits for K=25): a collision-free hash; k-mers containing N are skipped; distinct k-mers per window (set semantics)
+variants,"forward = k-mers as written (primary); canonical = min(k-mer, reverse complement)"
+similarity,max over single train windows of |distinct 25-mers of the test window found in that train window| / |distinct valid 25-mers of the test window|
+index,inverted index over train windows: sorted k-mer array + searchsorted posting lists (no all-pairs comparison)
+gene_pair_attribution,"each high-similarity test window is attributed to the distinct train genes among its tied best train windows, weight 1/(number of distinct genes)"
+split,data/splits/split_manifest_b.json (sha256:7490bb4a5b7732905f583fa432268ed334ccc96246de1cb2e50d22f0f9de5924)
+train_windows,135147
+test_windows,33780
+gene_disjoint_assert,test genes and train genes are disjoint (asserted)
+python,3.14.7
+generated,2026-09-21 22:19:28 +0530

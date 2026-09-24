@@ -1,0 +1,12 @@
+# ROC-AUC 95% Bootstrap CI by Locus-Overlap Subset
+
+Run,A full,A shared,A novel,B full,C full,C shared,C novel
+M3,0.6845-0.6959,0.6962-0.7146,0.6707-0.6847,0.5000-0.5000,0.5984-0.6102,0.6063-0.6262,0.5888-0.6035
+NT,0.9318-0.9371,0.9468-0.9539,0.9187-0.9266,0.8983-0.9049,0.8477-0.8563,0.8744-0.8874,0.8293-0.8402
+DNABERT-2† seed 42,0.9103-0.9169,0.9297-0.9388,0.8938-0.9029,0.6684-0.6796,0.7724-0.7821,0.8092-0.8240,0.7513-0.7635
+DNABERT-2† seed 1,-,-,-,0.6743-0.6851,-,-,-
+DNABERT-2† seed 2,-,-,-,0.6728-0.6844,-,-,-
+DNABERT-2† seed 3,-,-,-,0.6580-0.6697,-,-,-
+
+
+CI: 1000 bootstrap resamples of the subset's variants, seed 0, percentile interval. † DNABERT-2 SPLIT-B required an LR warmup fix after an initial run experienced representation collapse (see methodology); SPLIT-A and SPLIT-C used the original fixed-LR schedule. Subsets are not random samples, so differences are descriptive.

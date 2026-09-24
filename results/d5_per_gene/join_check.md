@@ -1,0 +1,18 @@
+# Join Check: Saved Predictions vs. Reconstructed Test Set
+
+Run,Split,Rows,Labels match,AUROC recomputed,AUROC in final JSON,Match (4 dp),Status
+M3 (gene-only),A,33786,all rows,0.6903,0.6903,yes,OK
+M3 (gene-only),B,33780,all rows,0.5000,0.5000,yes,OK
+M3 (gene-only),C,33536,all rows,0.6044,0.6044,yes,OK
+NT,A,33786,all rows,0.9343,0.9343,yes,OK
+NT,B,33780,all rows,0.9016,0.9016,yes,OK
+NT,C,33536,all rows,0.8519,0.8519,yes,OK
+DNABERT-2,A,33786,all rows,0.9137,0.9137,yes,OK
+DNABERT-2 (seed 42),B,33780,all rows,0.6740,0.6740,yes,OK
+DNABERT-2 (seed 1),B,33780,all rows,0.6796,0.6796,yes,OK
+DNABERT-2 (seed 2),B,33780,all rows,0.6785,0.6785,yes,OK
+DNABERT-2 (seed 3),B,33780,all rows,0.6640,0.6640,yes,OK
+DNABERT-2,C,33536,all rows,0.7772,0.7772,yes,OK
+
+
+Genes are attached by row order; every row's label was asserted equal to the reconstructed test label. The DNABERT-2 warmup-0 run is not used. Not shown: CNN, BiLSTM, CNN+BiLSTM, Ensemble (no saved probabilities).

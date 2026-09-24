@@ -1,0 +1,36 @@
+{
+  "A": {
+    "split": "A",
+    "alpha": 1.0,
+    "n_perm": 200,
+    "seeds": [
+      0,
+      199
+    ],
+    "real_auroc": 0.6903291675609253,
+    "null_mean": 0.4984081941254612,
+    "null_std": 0.024711262270177357,
+    "null_min": 0.44247434176524003,
+    "null_max": 0.5686103439414002,
+    "n_null_ge_real": 0,
+    "empirical_p": 0.004975124378109453,
+    "manifest_content_hash": "sha256:c8d6e8903bc8d9cb2709dfa75b50012dc7cfafeec1e70cadedd39a921a58abbe"
+  },
+  "C": {
+    "split": "C",
+    "alpha": 1.0,
+    "n_perm": 200,
+    "seeds": [
+      0,
+      199
+    ],
+    "real_auroc": 0.6043667005968095,
+    "null_mean": 0.49938455352556205,
+    "null_std": 0.022611264013128414,
+    "null_min": 0.4422344176748575,
+    "null_max": 0.5557054440869018,
+    "n_null_ge_real": 0,
+    "empirical_p": 0.004975124378109453,
+    "manifest_content_hash": "sha256:4e4d4d217b9fdae4c7459882dcbc41dc5bb0a62438c6ecac89474e72e3562434"
+  }
+}

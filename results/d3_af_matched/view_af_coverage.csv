@@ -1,0 +1,22 @@
+Set,Label,n,With AF,Fraction with AF
+all_variants,all,168927,35687,0.2113
+all_variants,pathogenic,78141,10714,0.1371
+all_variants,benign,90786,24973,0.2751
+train_A,all,135141,28525,0.2111
+train_A,pathogenic,62513,8581,0.1373
+train_A,benign,72628,19944,0.2746
+test_A,all,33786,7162,0.2120
+test_A,pathogenic,15628,2133,0.1365
+test_A,benign,18158,5029,0.2770
+train_B,all,135147,28948,0.2142
+train_B,pathogenic,62525,8844,0.1414
+train_B,benign,72622,20104,0.2768
+test_B,all,33780,6739,0.1995
+test_B,pathogenic,15616,1870,0.1197
+test_B,benign,18164,4869,0.2681
+train_C,all,135391,21518,0.1589
+train_C,pathogenic,62728,4427,0.0706
+train_C,benign,72663,17091,0.2352
+test_C,all,33536,14169,0.4225
+test_C,pathogenic,15413,6287,0.4079
+test_C,benign,18123,7882,0.4349

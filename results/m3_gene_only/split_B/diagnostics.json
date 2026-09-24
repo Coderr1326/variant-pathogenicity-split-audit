@@ -1,0 +1,14 @@
+{
+  "n_train_genes": 86,
+  "n_test_genes": 14,
+  "n_test_genes_seen_in_train": 0,
+  "frac_test_variants_gene_seen_in_train": 0.0,
+  "manifest_content_hash": "sha256:7490bb4a5b7732905f583fa432268ed334ccc96246de1cb2e50d22f0f9de5924",
+  "n_train": 135147,
+  "n_test": 33780,
+  "global_train_rate": 0.4626443798234515,
+  "alpha": 1.0,
+  "chance_floor": true,
+  "lr_onehot_auroc": 0.5,
+  "auroc_abs_diff_smoothed_vs_lr": 0.0
+}

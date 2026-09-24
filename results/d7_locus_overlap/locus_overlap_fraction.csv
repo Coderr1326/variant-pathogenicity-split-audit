@@ -1,0 +1,4 @@
+split,n_test,n_locus_shared,n_locus_novel,frac_shared,pct_shared,expected_pct,expected_n_shared,matches_expected
+A,33786,12186,21600,0.36068193926478426,36.06819392647842,36.1,12186,True
+B,33780,0,33780,0.0,0.0,0.0,0,True
+C,33536,11495,22041,0.3427659828244275,34.27659828244275,34.3,11495,True

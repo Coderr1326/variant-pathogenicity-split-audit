@@ -1,0 +1,12 @@
+# Leakage Delta (D1): SPLIT-A minus SPLIT-B/C
+
+Model,D1 A-B Acc,D1 A-B F1,D1 A-B AUC,D1 A-B PathRecall,D1 A-C Acc,D1 A-C F1,D1 A-C AUC,D1 A-C PathRecall
+CNN,0.0198,0.0252,0.0355,0.0604,0.0735,0.0838,0.0959,0.1365
+BiLSTM,-0.0084,0.0004,0.0015,0.0316,0.062,0.1277,0.0777,0.234
+CNN+BiLSTM,-0.0073,-0.0005,0.0142,0.0783,0.0512,0.0503,0.0808,0.0354
+Ensemble,0.0031,0.0095,0.011,0.0641,0.0518,0.0568,0.0758,0.097
+DNABERT-2†,0.2424,0.2706,0.2397,0.4687,0.1456,0.149,0.1364,0.2106
+NT,0.0368,0.0373,0.0327,0.064,0.0794,0.0828,0.0825,0.1739
+
+
+† DNABERT-2 SPLIT-B required an LR warmup fix after an initial run experienced representation collapse (see methodology); SPLIT-A and SPLIT-C used the original fixed-LR schedule.

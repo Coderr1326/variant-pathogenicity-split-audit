@@ -1,0 +1,2 @@
+Model,D1 A-B Acc,D1 A-B F1,D1 A-B AUC,D1 A-B PathRecall,D1 A-C Acc,D1 A-C F1,D1 A-C AUC,D1 A-C PathRecall
+M3 (gene-only),0.104,0.2645,0.1903,0.5796,0.0584,0.0638,0.086,0.1306

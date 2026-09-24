@@ -1,0 +1,21 @@
+{
+  "model": "m4_af_only",
+  "window": 100,
+  "metrics": {
+    "accuracy": 0.5482744331971823,
+    "roc_auc": 0.576244223098371,
+    "weighted_precision": 0.6118383382333326,
+    "weighted_recall": 0.5482744331971823,
+    "weighted_f1": 0.5089668181380028,
+    "benign_precision": 0.7021781625244345,
+    "benign_recall": 0.27695781473730585,
+    "benign_f1": 0.39723538704581357,
+    "pathogenic_precision": 0.5068734975961539,
+    "pathogenic_recall": 0.8635142052725877,
+    "pathogenic_f1": 0.6387863296412004,
+    "tn": 5029,
+    "fp": 13129,
+    "fn": 2133,
+    "tp": 13495
+  }
+}

@@ -1,0 +1,4 @@
+source_field,n_with_value,frac_with_value,n_pathogenic_with_value,n_benign_with_value
+AF_ESP,9955,0.05893078075144885,3154,6801
+AF_EXAC,27424,0.16234231354372006,9813,17611
+AF_TGP,14495,0.08580629502684592,2462,12033

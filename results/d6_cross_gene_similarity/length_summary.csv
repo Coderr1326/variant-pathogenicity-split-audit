@@ -1,0 +1,5 @@
+column,n,min_len,median_len,mean_len,max_len,n_len_100,n_with_N
+ref_sequence,168927,100,100.0,100.0,100,168927,0
+mut_sequence,168927,51,100.0,99.71078039626585,149,135105,9
+genomic_ref_sequence,168927,100,100.0,100.0,100,168927,0
+genomic_mut_sequence,168927,51,100.0,99.71078039626585,149,135105,9

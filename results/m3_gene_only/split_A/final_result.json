@@ -1,0 +1,21 @@
+{
+  "model": "m3_gene_only",
+  "window": 100,
+  "metrics": {
+    "accuracy": 0.6417155034629728,
+    "roc_auc": 0.6903291675609253,
+    "weighted_precision": 0.640582684850737,
+    "weighted_recall": 0.6417155034629728,
+    "weighted_f1": 0.6405443418328677,
+    "benign_precision": 0.6576876986401292,
+    "benign_recall": 0.6951756801409847,
+    "benign_f1": 0.6759122915049128,
+    "pathogenic_precision": 0.6207085588981018,
+    "pathogenic_recall": 0.5796007166624009,
+    "pathogenic_f1": 0.5994507130803084,
+    "tn": 12623,
+    "fp": 5535,
+    "fn": 6570,
+    "tp": 9058
+  }
+}
